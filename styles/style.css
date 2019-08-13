@@ -1,0 +1,74 @@
+html{
+    overflow-x: hidden;
+    font-family: 'Source Sans Pro', sans-serif;
+
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+html,body{
+    height: 100%;
+    width: 99.5%;
+    scroll-behavior: smooth;
+}
+body{
+    background-size: 100%;
+    background-image: url(../images/fondo.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+#inicio{
+    color: white;
+    position: relative;
+    top:12%;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    font-size: 3em;
+    
+}
+#logo{
+    color: #0E74BC;
+}
+#acaratula{
+    color: red;
+    font-size: 4em;
+    position: relative;
+    top: -10px;
+}
+#main{
+    background: rgb(215,215,215);
+    background: linear-gradient(180deg, rgba(215,215,215,1) 0%, rgba(255,255,255,1) 100%);
+    border-radius: 30px;
+    padding: 20px 40px;
+    margin: 10px;
+    font-size:25px;
+    
+}
+.fotos{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding:20px;
+    width: 30%;
+}
+.texto{
+    border-top-style:solid;
+    border-top-color: lightgrey;
+    padding-bottom: 5px;  
+}
+#huergo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding:20px;
+    width: 20%;
+}
+#caratula{
+    text-align: center;
+    height: 100%;
+}
+#informe{
+    text-align: justify;
+}
